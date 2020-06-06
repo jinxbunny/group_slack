@@ -1,0 +1,168 @@
+#chatBox{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+}
+
+#chatSection{
+    overflow-y: auto;
+    height: 400px;
+}
+
+#time{
+    font-family: "circularBook";
+    color: slategray;
+    font-size: small;
+    font-weight: lighter;
+    padding-left: 6px;
+}
+#pic{
+    padding: 0px;
+    width: 40px;
+    border-radius: 4px;
+}
+
+#name {
+    padding-bottom: 4px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+}
+
+#text{
+    color: black;
+    text-align: left;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: "circularBook";
+}
+
+#left{
+    padding-right: 10px;
+}
+
+#chatTop {
+    margin: 0px;
+    height: 40px;
+    border-bottom: silver solid 1px;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    align-items:center;
+}
+
+#topLeft {
+    width: 100%;
+    
+}
+
+#topLeftMob{
+    width: 100%;
+    
+}
+
+#topLeftMob img{
+    width: 30px;
+    padding-top: 4px;
+    padding-left: 20px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+#groupName {
+    font-size: 14px;
+}
+
+#underTitle {
+    padding-top: 5px;
+    font-size: 13px;
+    color: slategrey;
+}
+
+#topRight {
+    right: 40px;
+
+}
+
+#messageIn{
+    width: 97%;
+    border: 0;
+    font-size: 15px;
+    font-family: "circularBook";
+    margin: 10px;
+    height: 30px;
+}
+
+#underInput{
+    width: 100%;
+    height: 40px;
+    border-top: solid 2px #DDDDDD;
+    background-color: #F8F8F8;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: flex;
+}
+
+#uiLeft{
+    width: 50%;
+    text-align: Left;
+    padding-left: 2px;
+}
+
+#uiLeft img{
+    height: 40px;
+    padding-left: 4px;
+}
+
+#uiRight{
+    width: 50%;
+    text-align: right;
+    padding-right: 2px;
+}
+
+#uiRight img{
+    height: 40px;
+    padding-right: 4px;
+}
+
+
+@media screen and (max-width: 800px) {
+    #topLeft {
+      display: none;
+    }
+    #chatTop {
+        padding: 4px;
+    }
+    #chatSection {
+        height: 84vh;
+    }
+    #inputSection{
+        margin: 0px;
+        border-top: 1px slategray solid;
+        align-items: center;
+        border-radius: 0px;
+        width: 100%;
+    }
+    #underInput{
+        display: none;
+        height: 0px;
+    }
+    #messageIn{
+        width: 90%;
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+    #topLeftMob {
+      display: none;
+    }
+    #chatTop {
+        padding: 20px;
+    }
+    #inputSection{
+        margin: 20px;
+        border: 1px slategray solid;
+        border-radius: 4px;
+        align-items: center;
+    }
+  }

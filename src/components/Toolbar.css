@@ -1,0 +1,49 @@
+#Toolbar{
+    background-color: #311134;
+    height: 50px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+button{
+    background-color: transparent;
+    border: none;
+    height: auto;
+}
+.button{
+    width: 20px;
+}
+.srch{
+    width: 18px;
+    margin: 0 0.5vw;
+}
+#prev{
+    margin-left: 18vw;
+    margin-right: 1vw;
+}
+#next{
+    margin-right:1vw;
+}
+#search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3F2042;
+    color: snow;
+    font-size: 12px;
+    width: 300vw;
+    height: 25px;
+    border: solid 1.25px rgb(124, 124, 124);
+    border-radius: 5px;
+    margin-right: 25vw;
+    margin-left: 8vw;
+}
+#search:hover{
+    border: solid 1.25px snow;
+}
+#help{
+    margin-right: 5vw;
+}
+

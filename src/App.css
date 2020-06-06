@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "circularStd";
+}
+
+
+/* hides all outlines for buttons / inputs etc */
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+@font-face{
+  font-family: "circularStd";
+  src: url("./fonts/CircularStd-Medium.ttf");
+}
+
+@font-face{
+  font-family: "circularBook";
+  src: url("./fonts/CircularStd-Book.ttf");
+}
+
+
+#mainSection {
+  display: flex;
+  min-height: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+  #users {
+    display: none;
+  }
+  #toolbar{
+    display: none;
+  }
+  #channels{
+    display: none;
+  }   
+
+}

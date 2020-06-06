@@ -1,0 +1,90 @@
+#column{
+    background-color: #39143D;
+    width: 225px;
+    min-height: 100%;
+}
+
+#Cats{
+    padding: 10px 0;
+    background-color: #39143D;
+    border: #48274D solid 1px;
+    text-align: left;
+    color: white;
+}
+.categories{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.categories p{
+    margin-left: 5px;
+    width: 195px;
+}
+.categories:hover{
+    background-color: #2F639E;
+}
+#menus{
+    padding-top: 10px;
+    background-color: #39143D;
+    border: #48274D solid 1px;
+    border-bottom: none;
+    text-align: left;
+    color: white;
+}
+#showHide{
+    height: 30px;
+    width: 225px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 5px;
+    padding-left: 5px;
+    color: white;
+    cursor: pointer;
+}
+#showHide p{
+    padding-left: 10px;
+}
+.header p{
+    padding-left: 10px;
+    width: 190px;
+}
+.header{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 0 7px;
+}
+.channels{
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.chanButton{
+    color: white;
+    font-size: 16px;
+    height: 40px;
+    width: 225px;
+    padding: 0 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.chanButton p{
+    padding-left: 10px;
+    text-align: left;
+    width: 190px;
+}
+.channels:hover{
+    background-color: #2F639E;
+}
+.channels p{
+    padding-left: 10px;
+}
