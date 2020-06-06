@@ -78,9 +78,10 @@ class App extends Component{
         <div id="users"><Users 
             switchRM={this.switchUserRM} switchAG={this.switchUserAG} switchPA={this.switchUserPA}/></div>
           <div id="channels"><Channels/></div>
-          <Switch>
+          <MainFeed1 chats={this.state.chats} clickedNew={this.clickedNew} />
+          {/* <Switch>
             <Route exact path = "/" render ={() => <MainFeed1 chats={this.state.chats} clickedNew={this.clickedNew} />} />
-          </Switch>
+          </Switch> */}
         </div>
         </BrowserRouter>
       </React.Fragment>
