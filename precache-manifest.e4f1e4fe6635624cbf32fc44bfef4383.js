@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c3f12c9dd3aeb1d5742a45dc784c7ad",
+    "revision": "228ddb29f12adbb061b6fac1a266bdf4",
     "url": "/group_slack/index.html"
   },
   {
-    "revision": "63c67e739ef3401db681",
+    "revision": "e3275cf9de216cdf905c",
     "url": "/group_slack/static/css/main.2adc62ab.chunk.css"
   },
   {
-    "revision": "603be6601fd7f0a1393b",
-    "url": "/group_slack/static/js/2.e63c1e99.chunk.js"
+    "revision": "a204a6651503b507240b",
+    "url": "/group_slack/static/js/2.f3446ab5.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/group_slack/static/js/2.e63c1e99.chunk.js.LICENSE.txt"
+    "url": "/group_slack/static/js/2.f3446ab5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "63c67e739ef3401db681",
-    "url": "/group_slack/static/js/main.6f2ae547.chunk.js"
+    "revision": "e3275cf9de216cdf905c",
+    "url": "/group_slack/static/js/main.b151ee09.chunk.js"
   },
   {
     "revision": "52310412bded8f323bb7",
